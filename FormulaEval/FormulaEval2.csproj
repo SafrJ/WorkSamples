@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0ECF33B5-FED1-4108-B177-C483B26573CD}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>FormulaEval2</RootNamespace>
+    <AssemblyName>FormulaEval2</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BinaryAdd.cs" />
+    <Compile Include="BinaryAddParser.cs" />
+    <Compile Include="BinaryDiv.cs" />
+    <Compile Include="BinaryDivParser.cs" />
+    <Compile Include="BinaryMul.cs" />
+    <Compile Include="BinaryMulParser.cs" />
+    <Compile Include="BinaryOperationNode.cs" />
+    <Compile Include="BinarySub.cs" />
+    <Compile Include="BinarySubParser.cs" />
+    <Compile Include="CommandProcessor.cs" />
+    <Compile Include="ConsoleCommandReader.cs" />
+    <Compile Include="ConsoleResultWriter.cs" />
+    <Compile Include="ConstantNode.cs" />
+    <Compile Include="DoubleCalculator.cs" />
+    <Compile Include="DivisionError.cs" />
+    <Compile Include="Error.cs" />
+    <Compile Include="ExpressionMissingError.cs" />
+    <Compile Include="FormatError.cs" />
+    <Compile Include="FormulaEvaluator.cs" />
+    <Compile Include="IAlgorithm.cs" />
+    <Compile Include="IFormulaParser.cs" />
+    <Compile Include="ICommandProcessor.cs" />
+    <Compile Include="IFormulaReader.cs" />
+    <Compile Include="InfixBracketsMaker.cs" />
+    <Compile Include="InfixMinBracketsMaker.cs" />
+    <Compile Include="IntegerCalculator.cs" />
+    <Compile Include="IResultWriter.cs" />
+    <Compile Include="OperationNode.cs" />
+    <Compile Include="Node.cs" />
+    <Compile Include="OperationPriorities.cs" />
+    <Compile Include="OverflowError.cs" />
+    <Compile Include="BinaryMasterParser.cs" />
+    <Compile Include="ConstantParser.cs" />
+    <Compile Include="PreorderParser.cs" />
+    <Compile Include="UnaryMasterParser.cs" />
+    <Compile Include="UnaryMinusParser.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UnaryMinus.cs" />
+    <Compile Include="UnaryOperationNode.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
