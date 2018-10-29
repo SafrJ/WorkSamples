@@ -1,0 +1,192 @@
+C Edinburg 14 3
+C Stockholm 57 1
+C Petrograd 87 3
+C Riga 69 3
+C Kobenhavn 47 7
+C London 21 14
+C Amsterdam 31 15
+C Essen 39 15
+C Berlin 49 17
+C Danzig 61 11
+C Wilno 77 14
+C Smolensk 88 14
+C Moskva 96 12
+C Warszawa 66 16
+C Bruxelles 29 18
+C Brest 11 24
+C Dieppe 20 22
+C Paris 25 25
+C Pamplona 19 37
+C Madrid 9 43
+C Lisboa 2 45
+C Cadiz 8 49
+C Barcelona 20 44
+C Marseille 34 37
+C Zurich 37 29
+C Frankfurt 38 21
+C Munchen 44 25
+C Venezia 45 32
+C Roma 46 39
+C Palermo 50 49
+C Brindisi 55 41
+C Zagrab 54 33
+C Sarajevo 63 37
+C Athina 67 47
+C Sofia 69 38
+C Budapest 60 28
+C Wien 55 26
+C Kyiv 81 20
+C Bucuresti 75 33
+C Smyrna 76 49
+C Angora 88 47
+C Constantinopole 81 43
+C Erzurum 97 45
+C Sochi 98 35
+C Rostov 99 28
+C Sevastopol 89 34
+C Kharkov 95 24
+M Lisboa Danzig 20
+M Edinburg Athina 21
+M Brest Petrograd 20
+M Kobenhavn Erzurum 21
+M Palermo Moskva 20
+M Cadiz Stockholm 21
+T London Wien 10
+T Essen Kyiv 10
+T Kyiv Sochi 8
+T Athina Wilno 11
+T Riga Bucuresti 10
+T Palermo Constantinopole 8
+T Frankfurt Smolensk 13
+T Amsterdam Wilno 12
+T Marseille Essen 8
+T Sarajevo Sevastopol 8
+T Madrid Zurich 8
+T Angora Kharkov 10
+T Berlin Bucuresti 8
+T Brest Marseille 7
+T Zurich Budapest 6
+T Warszawa Smolensk 6
+T Zurich Brindisi 6
+T Berlin Roma 9
+T Berlin Moskva 12
+T Amsterdam Pamplona 7
+T Edinburg Paris 7
+T Bruxelles Danzig 9
+T Paris Wien 8
+T Kyiv Petrograd 6
+T Barcelona Munchen 8
+T London Berlin 7
+T Zagrab Brindisi 6
+T Brest Venezia 8
+T Rostov Erzurum 5
+T Roma Smyrna 8
+T Athina Angora 5
+T Barcelona Bruxelles 8
+T Venezia Constantinopole 10
+T Madrid Dieppe 8
+T Frankfurt Kobenhavn 5
+T Smolensk Rostov 8
+T Stockholm Wien 11
+T Budapest Sofia 5
+T Sofia Smyrna 5
+T Paris Zagrab 7
+L 14
+W P 12
+W W 12
+W B 12
+W Y 12
+W O 12
+W K 12
+W R 12
+W G 12
+R R Amsterdam Essen 3 7
+R R Amsterdam Frankfurt 2 6
+R R Angora Constantinopole 2 0
+R R Angora Erzurum 3 4
+R R Athina Smyrna 2 0
+R R Barcelona Marseille 4 0
+R R Berlin Warszawa 4 7
+R R Berlin Wien 3 5
+R R Brest Pamplona 4 1
+R R Brest Paris 3 4
+R R Brindisi Athina 4 0
+R R Bruxelles Amsterdam 1 4
+R R Bruxelles Frankfurt 2 8
+R R Bruxelles Paris 2 7
+R R Bucuresti Constantinopole 3 7
+R R Bucuresti Sevastopol 4 6
+R R Budapest Bucuresti 4 0
+R R Budapest Kyiv 6 0
+R R Budapest Sarajevo 3 1
+R R Budapest Zagrab 2 2
+R R Constantinopole Sevastopol 4 0
+R R Danzig Berlin 4 0
+R R Danzig Warszawa 2 0
+R R Dieppe Brest 2 2
+R R Dieppe Bruxelles 2 5
+R R Dieppe Paris 1 1
+R R Edinburg Amsterdam 4 4
+R R Erzurum Sevastopol 4 0
+R R Erzurum Sochi 3 3
+R R Essen Berlin 2 8
+R R Essen Kobenhavn 3 0
+R R Frankfurt Berlin 3 4
+R R Frankfurt Essen 2 5
+R R Frankfurt Munchen 2 1
+R R Kharkov Moskva 4 0
+R R Kobenhavn Stockholm 3 6
+R R Kyiv Bucuresti 4 0
+R R Kyiv Kharkov 4 0
+R R Lisboa Cadiz 2 8
+R R London Amsterdam 2 0
+R R London Dieppe 2 0
+R R Madrid Barcelona 2 7
+R R Madrid Cadiz 3 2
+R R Madrid Lisboa 3 1
+R R Marseille Roma 4 0
+R R Marseille Zurich 2 1
+R R Moskva Smolensk 2 2
+R R Munchen Venezia 2 8
+R R Munchen Wien 3 2
+R R Munchen Zurich 2 7
+R R Palermo Brindisi 3 0
+R R Palermo Smyrna 6 0
+R R Pamplona Barcelona 2 1
+R R Pamplona Madrid 3 6
+R R Pamplona Marseille 4 3
+R R Paris Frankfurt 3 2
+R R Paris Marseille 4 0
+R R Paris Pamplona 4 8
+R R Paris Zurich 3 0
+R R Petrograd Moskva 4 6
+R R Petrograd Riga 4 0
+R R Petrograd Wilno 4 8
+R R Riga Danzig 3 4
+R R Riga Wilno 4 5
+R R Roma Brindisi 2 6
+R R Roma Palermo 4 0
+R R Rostov Kharkov 2 5
+R R Rostov Sochi 2 0
+R R Sarajevo Athina 4 5
+R R Sarajevo Sofia 2 0
+R R Sevastopol Rostov 4 0
+R R Sevastopol Sochi 2 0
+R R Smolensk Kyiv 3 3
+R R Smolensk Wilno 3 7
+R R Smyrna Angora 3 2
+R R Smyrna Constantinopole 2 0
+R R Sofia Athina 3 1
+R R Sofia Bucuresti 2 0
+R R Sofia Constantinopole 3 8
+R R Stockholm Petrograd 8 0
+R R Venezia Roma 2 4
+R R Venezia Zagrab 2 0
+R R Warszawa Kyiv 4 0
+R R Warszawa Wilno 3 3
+R R Wien Budapest 1 3
+R R Wien Warszawa 4 8
+R R Wien Zagrab 2 0
+R R Wilno Kyiv 2 0
+R R Zagrab Sarajevo 3 3
+R R Zurich Venezia 2 5
